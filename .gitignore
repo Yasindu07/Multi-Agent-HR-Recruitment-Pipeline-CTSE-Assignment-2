@@ -1,0 +1,59 @@
+# ─── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# ─── Virtual Environment ──────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ─── IDE / Editor ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ─── Streamlit ────────────────────────────────────────────────
+# Keep .streamlit/config.toml (theme config)
+# Ignore Streamlit cache
+.streamlit/secrets.toml
+
+# ─── Generated Data (can be recreated) ────────────────────────
+data/sample_resumes/
+data/sample_flyers/
+data/hr_jobs.db
+data/_tmp_uploads/
+data/_api_uploads/
+data/_uploads/
+
+# ─── Frontend Build ──────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+
+# ─── Pipeline Output ─────────────────────────────────────────
+logs/
+reports/
+assessments/
+
+# ─── Environment Variables ────────────────────────────────────
+.env
+.env.local
+
+# ─── Pytest ───────────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ─── OS Files ─────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
